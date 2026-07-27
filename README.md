@@ -2,7 +2,6 @@
 
 Generates a local project structure (config files, a secret, and a deployment
 report) purely with Terraform, using the `local` and `random` providers.
-No cloud account required.
 
 ## Structure produced after `terraform apply`
 
