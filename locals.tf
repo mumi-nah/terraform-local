@@ -1,6 +1,4 @@
 locals {
-  # Locals requirement: derive reusable values once instead of
-  # repeating string concatenation in every resource block.
   config_dir  = "${var.project_root}/config"
   secrets_dir = "${var.project_root}/secrets"
   reports_dir = "${var.project_root}/reports"
